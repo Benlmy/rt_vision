@@ -2,5 +2,8 @@
     // 使用 ${sourceDirectory} 变量
     // 这代表：当前被激活的 CMakeLists.txt 所在的文件夹
     "cmake.buildDirectory": "${sourceDirectory}/build",
-    "cmake.sourceDirectory": "/home/benlmy/rt_vision-1/coding_learning/task2_photo_system"
+    "cmake.sourceDirectory": "/home/benlmy/rt_vision-1/coding_learning/task2_photo_system",
+    "C_Cpp.clang_format_style": "file",  // 强制使用我们刚才创建的 .clang-format 文件
+    "editor.formatOnSave": true,         // 开启保存时自动格式化
+    "editor.defaultFormatter": "ms-vscode.cpptools" // 指定 C++ 插件为格式化工具
 }

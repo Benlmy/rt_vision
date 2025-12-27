@@ -1,0 +1,20 @@
+# 基于 Google 规范
+BasedOnStyle: Google
+
+# 缩进宽度: 4 个空格 (Google 默认是 2，改为 4 更适合阅读)
+IndentWidth: 4
+
+# 连续行的缩进宽度
+ContinuationIndentWidth: 4
+
+# 访问权限修饰符 (public/private) 的缩进
+AccessModifierOffset: -4
+
+# 指针和引用的对齐方式: 靠左 (int* a 也就是 * 跟随类型)
+PointerAlignment: Left
+
+# 允许短的函数写在一行
+AllowShortFunctionsOnASingleLine: Inline
+
+# 每一行的最大字符数 (超过会自动换行)
+ColumnLimit: 120
