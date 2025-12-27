@@ -1,0 +1,6 @@
+{
+    // 使用 ${sourceDirectory} 变量
+    // 这代表：当前被激活的 CMakeLists.txt 所在的文件夹
+    "cmake.buildDirectory": "${sourceDirectory}/build",
+    "cmake.sourceDirectory": "/home/benlmy/rt_vision-1/coding_learning/task2_photo_system"
+}
