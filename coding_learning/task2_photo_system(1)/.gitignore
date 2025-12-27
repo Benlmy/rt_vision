@@ -1,0 +1,30 @@
+# 忽略 Visual Studio 的临时文件和缓存
+.vs/
+out/
+build/
+*.user
+*.suo
+
+# 忽略编译生成的垃圾文件夹
+x64/
+Debug/
+Release/
+
+# 忽略编译出来的可执行文件
+*.exe
+*.obj
+*.pdb
+*.idb
+*.ilk
+
+# 忽略你手动复制进来的 OpenCV 库文件 (别人下载你的代码应该自己配环境)
+*.dll
+*.lib
+
+# 忽略 Python 的缓存
+__pycache__/
+*.pyc
+
+# 忽略图片数据 (如果不希望上传测试图)
+train1/
+processed_images/
